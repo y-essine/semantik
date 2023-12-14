@@ -1,0 +1,222 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxGSBTdqLxYl1xGR8izXGx -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBxGSBTdqLxYl1xGR8izXGx">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>hasRatings</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Lmlv6yNxAfgxTOBVeElCk -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7Lmlv6yNxAfgxTOBVeElCk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ratingComment</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiVycU2MwMwD4rB7yYr3ok -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCiVycU2MwMwD4rB7yYr3ok">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>ratingPageId</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdG6gDkeaJXWrveeuwk40M -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RdG6gDkeaJXWrveeuwk40M">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>ratingStars</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageCategory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageCategory">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageId">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageLikesCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageLikesCount">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageUrl -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#pageUrl">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UdQJCnJ5ZEQPviSjzTN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8UdQJCnJ5ZEQPviSjzTN">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stars</rdfs:comment>
+        <rdfs:label>Rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Page -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Page">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBxGSBTdqLxYl1xGR8izXGx"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8UdQJCnJ5ZEQPviSjzTN"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#a1ce -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#a1ce">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Page"/>
+        <pageCategory>memes</pageCategory>
+        <pageId>a1ce04d2-baeb-40b8-b898-36fa8c214394</pageId>
+        <pageName>bokri bokri</pageName>
+        <pageUrl>http://memes.com</pageUrl>
+    </owl:NamedIndividual>
+    
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#d0c1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#d0c1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Page"/>
+        <pageCategory>sports</pageCategory>
+        <pageId>d0c165d5-4584-428f-99c5-4bac7c7b4439</pageId>
+        <pageName>Mariem bokri</pageName>
+        <pageUrl>mariemsports.com</pageUrl>
+    </owl:NamedIndividual>
+    
+
+    <!-- http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#page2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#page2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Page"/>
+        <pageCategory>news</pageCategory>
+        <pageId>abcdefg-123456-hijklmnop-2</pageId>
+        <pageName>Fox News</pageName>
+        <pageUrl>https://www.facebook.com/FoxNews</pageUrl>
+    </owl:NamedIndividual>
+
+    <!-- Rating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#rating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Rating"/>
+        <ratingPageId>abcdefg-123456-hijklmnop-2</ratingPageId>
+        <ratingStars>2</ratingStars>
+        <ratingComment>Nice page!!! :D</ratingComment>
+    </owl:NamedIndividual>
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#rating2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Rating"/>
+        <ratingPageId>d0c165d5-4584-428f-99c5-4bac7c7b4439</ratingPageId>
+        <ratingStars>5</ratingStars>
+        <ratingComment>Test comment</ratingComment>
+    </owl:NamedIndividual>
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#rating3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/mariem/ontologies/2023/9/untitled-ontology-2#Rating"/>
+        <ratingPageId>d0c165d5-4584-428f-99c5-4bac7c7b4439</ratingPageId>
+        <ratingStars>4</ratingStars>
+        <ratingComment>WOW!!!</ratingComment>
+    </owl:NamedIndividual>
+    
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
